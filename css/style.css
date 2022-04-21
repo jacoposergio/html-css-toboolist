@@ -6,29 +6,40 @@
 }
 
 body{
-    background-color: #f6f8f9;
-}
+    background-color: #0672a8;
+    /* background-color: #f6f8f9; */
+}   
+
 /* HEADER */
 
  header{
     background-color: grey;
  }
  
- .logo-container{
-    width: 97%;
+    .logo-container{
+        width: 97%;
+        margin: auto;
+    }
+
+            .logo{
+                height: 80px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                vertical-align: middle;
+            }
+
+            h1{
+            font-family: 'Franklin Gothic Medium';
+            font-size: 60px;
+            margin-left: 5px;
+            vertical-align: middle;
+            display: inline-block;
+            }
+
+.body-container{
+    background-color: rgb(166, 68, 68);
+    width: 60%;
     margin: auto;
-   }
-
- .logo{
-    height: 80px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    vertical-align: middle;
-}
-
-h1{
-font-family: 'Franklin Gothic Medium';
-font-size: 60px;
-vertical-align: middle;
-display: inline-block;
+    margin-top: 60px;
+    border-radius: 10px;
 }
