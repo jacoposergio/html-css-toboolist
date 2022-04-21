@@ -46,7 +46,8 @@ body{
     border-radius: 10px;
 }
 
-.margin-container, .hr{
+
+.margin-container{
     margin-left: 7%;
 }
     /* PULSANTI */
@@ -70,8 +71,13 @@ body{
             background-color: rgb(121, 121, 156)
         }
 
+
+        /* LINEA SEPARATORIA */
+
         #linea-separatoria{
-            margin-left: 0%; 
+            border: 1px solid red;
+            box-sizing: border-box;
+            
         }
 
         /* LISTA DI TASK */
@@ -114,6 +120,17 @@ body{
               vertical-align: middle;
           }
 
+                .cerchietto.ecs{
+                    font-size: 11px;             
+                }
+
+          /* .information .goals{
+            font-size: 300px;
+            color: rgb(57, 19, 19);
+
+         } */
+
+
           .information{
               font-size: 10px;
              color: white;
@@ -126,4 +143,4 @@ body{
             margin-bottom: 10px;
             vertical-align: middle;
           }
-    
+      
