@@ -45,7 +45,7 @@ body{
     border-radius: 10px;
 }
 
-.margin-container{
+.margin-container, .hr{
     margin-left: 7%;
 }
     /* PULSANTI */
@@ -69,3 +69,11 @@ body{
             color: rgb(93, 215, 17);
             background-color: rgb(121, 121, 156)
         }
+
+        #linea-separatoria{
+            margin-left: 0%; 
+        }
+
+        /* LISTA DI TASK */
+
+       
