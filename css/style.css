@@ -55,7 +55,6 @@ body{
        display: inline;
        border-style: solid;
        border-radius: 7px;
-       border width: 1px;
        padding: 5px 15px 5px 15px;
        margin-top: 10px;
        margin-bottom: 10px;
@@ -76,4 +75,32 @@ body{
 
         /* LISTA DI TASK */
 
+        /* rimuovo i pallini lista */
+        li{
+            list-style-type: none;
+         }
+
+         .main-title{
+            font-family:  Arial;
+            font-size: 30px; 
+            font-weight: bold; 
+         }
+        
+         .sublist{
+            font-family: Arial;
+            font-size: 20px;
+          }
+
+          .cerchietto{
+              background-color: blanchedalmond;
+              font-size: 15px;
+              border: 1px solid black;
+              border-radius: 50%;
+              height: 25px;
+              width: 25px;
+              text-align: center;
+              display: inline-block;
+              vertical-align: middle;
+          }
        
+         
